@@ -1,7 +1,6 @@
 var lines = [];
 var x = 0;
 var y;
-var z = 0;
 
 function setup() {
   createCanvas(100, 200);
@@ -11,7 +10,6 @@ function setup() {
 }
 
 function draw() {
-  z++;
   background(0);
 
   for (var i = 0; i < lines.length; i++) {
